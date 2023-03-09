@@ -1,0 +1,45 @@
+body{
+    background: url("bg.jpg");
+    /* min-height: 100vh; */
+    background-size: 250vh 50vw;
+    background-repeat: no-repeat  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+   
+    margin-left: 750px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#hiScoreBox{
+    margin-left: 750px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#playArea{
+    /* display: flex; */
+    margin-top:-60px ;
+    height: 620px;
+    width:650px ;
+    justify-content: center;
+    background: rgb(2, 57, 92);
+   display: grid;
+
+ grid-template-columns: repeat(18,1fr);
+ grid-template-rows: repeat(18,1fr);
+
+}
+
+.snake{
+    background-color: purple;
+}
+.food{
+    background-color: yellow;
+}
+
+.head{
+    background-color: red;
+}
+
